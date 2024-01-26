@@ -1,0 +1,35 @@
+.divOpen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2016/08/24/14/29/earth-1617121_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  margin: 0; 
+}
+
+.divButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}

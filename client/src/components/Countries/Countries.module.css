@@ -1,0 +1,8 @@
+.contenedor {
+  display: flex;
+  height: 65vh; 
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 1em 2.5em 0.4em 2.5em;
+  justify-content: space-around;
+}

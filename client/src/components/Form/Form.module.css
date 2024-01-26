@@ -1,0 +1,86 @@
+.principal {
+  position: relative;
+  background-color: rgba(17, 6, 5, 0);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.principal a {
+  position: absolute;
+  left: 3em;
+  top: 1em;
+}
+
+.form {
+  border: none;
+  background-color: rgba(40, 64, 65, 0.181);
+  width: 50%;
+  margin: 2em auto auto auto;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.fieldset {
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  grid-template-rows: auto auto;
+  column-gap: 1em;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.form label {
+  font-weight: bold;
+  margin: auto 1em 1em auto;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 20px; 
+}
+
+.inputs input {
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-left: 1em;
+  min-width: 20em;
+  background-color: rgba(25, 154, 219, 0.15);
+  font-size: 20px; 
+}
+
+.inputs select {
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: rgba(64, 86, 97, 0);
+  font-size: 20px; 
+}
+
+.countries_selected p {
+  font-size: 20px; 
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.error {
+  font-size: 20px; 
+  height: 20px;
+  overflow: hidden;
+  text-align: left;
+  margin: 0 auto 0 2em;
+  font-style: italic;
+}
+
+.error p {
+  color: rgb(241, 140, 140);
+}
+
+button.disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+  font-size: 20px; 
+}
